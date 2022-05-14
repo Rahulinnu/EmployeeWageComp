@@ -10,6 +10,11 @@ namespace EmployeeWageComp
 
             UC1 usc1 = new UC1();
             usc1.UsCa1();
+
+            UC2 usc2 = new UC2();
+            usc2.UsCa2();
+
+
         }
     }
 }
