@@ -6,13 +6,13 @@ namespace EmployeeWageComp
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Employee Wage Computation");
 
-            UC1 usc1 = new UC1();
-            usc1.UsCa1();
-
-            UC2 usc2 = new UC2();
-            usc2.UsCa2();
+            Console.WriteLine("Welcome to employee Wage Compuatation Program\n");
+            UC9 BridgeLabz = new UC9("Bridgelabz", 20, 20, 100);
+            UC9 TCS = new UC9("TCS", 40, 25, 100);
+            BridgeLabz.UsCa9();
+            TCS.UsCa9();
+            Console.ReadLine();
 
 
         }
